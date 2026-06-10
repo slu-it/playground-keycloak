@@ -140,8 +140,22 @@ Content-Type: application/json
   "parentId": "{{trustedHostsParentId}}",
   "subType": "anonymous",
   "config": {
-    "trusted-hosts": ["localhost"],
-    "host-sending-registration-request-must-match": ["true"],
-    "client-uris-must-match": ["false"]
+    "trusted-hosts": [
+      "172.17.0.1",
+      "172.18.0.1",
+      "172.19.0.1",
+      "172.20.0.1",
+      "172.21.0.1",
+      "172.22.0.1",
+      "172.23.0.1",
+      "172.24.0.1",
+      "172.25.0.1"
+    ],
+    "host-sending-registration-request-must-match": [
+      "true"
+    ],
+    "client-uris-must-match": [
+      "false"
+    ]
   }
 }
